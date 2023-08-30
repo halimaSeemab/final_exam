@@ -1,0 +1,15 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block title %}
+exam
+{% endblock %}
+{% block content %}
+<h1>Q_4</h1>
+
+<ul>
+  {% for x in bla %}
+    <li>{{ x.name }}<br> {{ x.price }}<br> {{ x.description }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
